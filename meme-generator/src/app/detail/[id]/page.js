@@ -1,3 +1,4 @@
+import Navbar from "@/Component/navbar/page";
 import Detail from "./detail"
 
 export default async function Detailcontainer(props){
@@ -9,7 +10,8 @@ export default async function Detailcontainer(props){
     const meme = result.data.memes.find(meme => meme.id === memeId);
     console.log(meme);
 
-    return <div className="flex justify-center">
+    return <div className="">
+        <Navbar/>
         <Detail meme={meme}/>
 
     </div>

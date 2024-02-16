@@ -1,13 +1,8 @@
 
 export default function Navbar(){
-    return <nav class="navbar bg-body-tertiary">
-    <form class="container-fluid">
-      <div class="input-group">
-        <span class="input-group-text" id="basic-addon1">@</span>
-        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
-        <button class="btn btn-outline-success me-2" type="button">Main button</button>
-    <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
-      </div>
-    </form>
-  </nav>
+    return <div className="w-full h-24 p-2">
+      <div style={{backgroundColor: 'gray'}} className="border-2 p-2">
+<img width='70' height='50' src="https://mir-s3-cdn-cf.behance.net/projects/404/2bf02c138765215.Y3JvcCw0NTM4LDM1NTAsMCww.jpg"/>
+</div>
+    </div>
 }
